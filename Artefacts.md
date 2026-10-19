@@ -1,40 +1,27 @@
-# Part 1: Weekly Artefacts & Developmental Evidence (Units 1–12)
+---
+layout: default
+title: "Part 1: Learning by Unit"
+---
 
-Below is the repository of artefacts demonstrating my technical progression, risk assessments, design decisions, and team collaborations throughout the module.
+# Part 1: Learning by Unit (Units 1–12)
 
-* **Unit 1 – Threat Landscape Analysis & System Scoping**
-  * *Artefact:* System architecture blueprint and initial threat matrix mapping perimeter vulnerabilities.
-  * *Summary:* Established baseline scope for our secure application framework, identifying key assets and high-risk network entry points.
-* **Unit 2 – Risk Assessment Frameworks**
-  * *Artefact:* STRIDE and DREAD threat modeling report.
-  * *Summary:* Categorised system vulnerabilities and quantified risk scores to prioritise mitigation strategies.
-* **Unit 3 – Cryptographic Controls & Data Protection**
-  * *Artefact:* Python implementation script for AES-256 encryption and secure key management.
-  * *Summary:* Ensured robust data-at-rest protection standards across simulated database storage.
-* **Unit 4 – Access Control Models & IAM**
-  * *Artefact:* Comparative architectural design document (RBAC vs. ABAC).
-  * *Summary:* Evaluated fine-grained attribute-based access controls for cloud microservices.
-* **Unit 5 – Network Security & Perimeter Defense**
-  * *Artefact:* Firewall rule configurations and Snort IDS/IPS rule deployment scripts.
-  * *Summary:* Designed network anomaly detection rules to catch unauthorized traffic patterns.
-* **Unit 6 – Project Status Document & Milestone 1**
-  * *Artefact:* Mid-term project status report and team risk register.
-  * *Summary:* Outlined initial sprint progress, architectural choices, and emerging timeline bottlenecks.
-* **Unit 7 – Application Security & Secure Coding**
-  * *Artefact:* OWASP Top 10 vulnerability assessment and SAST pipeline integration files.
-  * *Summary:* Implemented automated static code analysis to catch input validation flaws early.
-* **Unit 8 – Incident Response & Forensic Readiness**
-  * *Artefact:* Team Incident Response Playbook.
-  * *Summary:* Formulated step-by-step procedures for containment, eradication, and post-incident forensics.
-* **Unit 9 – Cloud Security & Zero-Trust Architecture**
-  * *Artefact:* Zero-trust policy enforcement framework and Docker security hardening configs.
-  * *Summary:* Applied container isolation and continuous verification principles.
-* **Unit 10 – Legal, Ethical & Professional Compliance**
-  * *Artefact:* Regulatory compliance audit matrix (UK GDPR, DPA 2018, BCS Code of Conduct).
-  * *Summary:* Ensured system architecture aligns with data protection laws and professional standards.
-* **Unit 11 – Final System Integration & Artifact Delivery**
-  * *Artefact:* Production-ready hybrid ML threat detection engine codebase and REST API wrapper.
-  * *Summary:* Delivered the final integrated security tool accompanied by rigorous penetration testing logs.
-* **Unit 12 – E-Portfolio Consolidation & Review**
-  * *Artefact:* Final e-portfolio branch compilation and peer review summaries.
-  * *Summary:* Synthesized weekly learnings into this final published GitHub Pages site.
+**Note on evidence:** Because of full-time work commitments, I did not post in the collaborative discussion forums or upload artefacts to the team project during this module. This page therefore summarises my independent learning in each unit and maps it to the module learning outcomes (LO1–LO4, listed on the [home page](index.html)). My reflection on this is in [Part 4](reflections.html).
+
+| Unit | Topic | Key learning | LOs |
+|---|---|---|---|
+| 1 | Introduction to security and risk management | Definitions of risk and the stages of the risk management process: identify, assess, treat, monitor. | LO1 |
+| 2 | Risk management process and assessment types | Qualitative and quantitative assessment differ in speed, precision and how easily they can be explained to stakeholders. | LO1, LO3 |
+| 3 | Threats, vulnerabilities and threat modelling | The difference between threats and vulnerabilities; STRIDE, DREAD and attack trees as structured ways to find what can go wrong. | LO1 |
+| 4 | Threat modelling tools | Publicly available tools and resources make threat modelling repeatable instead of relying on intuition. | LO2, LO3 |
+| 5 | Industry standards | Standards such as PCI-DSS and ISO/IEC 27000 shape which risks must be assessed and how controls are justified. | LO3, LO4 |
+| 6 | GDPR case studies and standards | Data protection failures are often process and governance failures, not only technical ones. | LO4 |
+| 7 | Quantitative risk modelling | Monte Carlo simulation and Bayesian approaches turn uncertainty into ranges instead of single scores. | LO3 |
+| 8 | Applying quantitative risk modelling | Quantitative methods help defend decisions but depend on the quality of the input estimates. | LO2, LO3 |
+| 9 | Business continuity and disaster recovery | BC/DR planning starts from business impact analysis, not from technology. | LO3 |
+| 10 | RPO, RTO and recovery solutions | Recovery point and recovery time objectives drive the cost and design of standby solutions. | LO3 |
+| 11 | Current and emerging trends in SRM | Trends such as AI and automation change both the threat landscape and the tools available to defenders. | LO1, LO2 |
+| 12 | Future trends debate | Weighing opposing views on which trend will matter most, and the value of evidence-based argument. | LO2, LO4 |
+
+## Link to my professional practice
+
+As a Modern Workplace Engineer specialising in cybersecurity, the units I can apply most directly are threat modelling (Units 3–4), standards and compliance (Units 5–6) and business continuity and recovery (Units 9–10), all of which relate to identity, endpoint and cloud productivity platforms.
