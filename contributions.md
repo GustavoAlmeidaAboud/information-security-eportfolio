@@ -1,15 +1,24 @@
-# Part 2 & 3: Individual Contributions & Project Evaluation
-
-## Part 2: Individual Contributions to Team Projects
-Throughout the collaborative development lifecycle, my individual contributions directly supported technical delivery, risk management, and team cohesion:
-* **Technical Engineering:** Led the implementation of cryptographic modules (Unit 3) and contributed backend Python scripts for automated security scanning (Unit 7 & 11).
-* **Risk Management:** Authored the STRIDE threat models and maintained the team's shared risk register, updating mitigation strategies as vulnerabilities emerged.
-* **Collaboration & Quality Assurance:** Actively participated in weekly team syncs, conducted peer code reviews via GitHub pull requests, and maintained transparent communication channels to unblock teammates.
-
+---
+layout: default
+title: "Part 2 & 3: Contributions and Project Evaluation"
 ---
 
-## Part 3: Evaluation of Final Project (Unit 11) vs. Status Document (Unit 6)
-Comparing our **Unit 11 Final Project Deliverable** against our **Unit 6 Status Document** highlights significant technical maturation and risk adaptation:
-1. **Architectural Pivot:** In Unit 6, our architecture relied heavily on traditional perimeter defenses. By Unit 11, guided by continuous vulnerability assessments, we successfully pivoted to a **Zero-Trust Microservices Architecture**, incorporating continuous identity verification and automated policy enforcement.
-2. **CI/CD Risk Mitigation:** The Unit 6 status document identified potential bottlenecks in CI/CD build latency caused by heavy automated security scans. In the final Unit 11 implementation, we resolved this by optimising asynchronous container scanning (integrating lightweight OWASP ZAP rules), reducing build overhead by 35% while maintaining rigorous security checks.
-3. **Streamlined Team Collaboration:** While Unit 6 highlighted initial friction in task synchronisation and git branch management, the final project reflects streamlined collaboration. Establishing strict coding standards, clear merge request protocols, and modular task distribution by Unit 8 enabled our team to deliver the final artifact ahead of schedule.
+# Part 2 & 3: Contributions and Project Evaluation
+
+## Part 2: Individual contributions to team projects
+
+I was not able to contribute meaningfully to the team projects in this module. Balancing full-time work with study meant I fell behind early, and I did not take part in the team's activities or the collaborative discussions. I have chosen to state this honestly rather than claim work I did not do. I reflect on the causes and on what I will change in [Part 4](reflections.html).
+
+## Part 3: Evaluation of the final project (Unit 11) against the status document (Unit 6)
+
+Because I was not involved in producing the Unit 6 status document or the Unit 11 deliverable, I am not in a position to give a first-hand evaluation of how the project developed between them. The main lesson for me is about my own planning: a status review at the midpoint of a project is exactly the moment to raise problems early, and in future modules I will use it to flag if I am falling behind instead of withdrawing.
+
+## Professional development plan (PDP)
+
+| Skill | Current level | Action | Timescale |
+|---|---|---|---|
+| Time management | Needs improvement | Block fixed weekly study time, including time for forum posts and team tasks | From the start of the next module |
+| Teamwork and communication | Needs improvement | Contact my team in the first week and tell them early if work affects my availability | Each module |
+| Threat modelling | Developing | Apply STRIDE to one workplace or identity change at work and record it in a risk register | Next 3 months |
+| Quantitative risk assessment | Developing | Practise simple range-based estimates for one risk presented to stakeholders | Next 6 months |
+| Critical reflection | Developing | Keep this e-portfolio updated during each module, not only at the end | Ongoing |
